@@ -109,6 +109,10 @@ main img {
 
 }
 
+.streaming {
+    border-radius: 10px;
+}
+
 .brasao {
     width: 60%;
     display: block;
