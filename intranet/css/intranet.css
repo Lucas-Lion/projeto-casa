@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    --MENU: #193441;
-    --NAV: #204050;
+    --MENU: #19344180;
+    --NAV: #204050a1;
     --NAV-HOVER: #2c5266;
     --BACKGROUND: #91AA9D;
     --BOX-CONTEUDO: #3E606F;
@@ -17,6 +17,9 @@
 }
 
 header {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
     background-color: var(--MENU);
     background-image: linear-gradient(to bottom, var(--nav), var(--FOOTER-COLOR));
     min-height: 90px;
@@ -80,7 +83,7 @@ main {
 
 .titulo {
     padding: 5px 0px 5px 0px;
-    margin: 10px 0px 20px 0px;
+    margin: 40% 0px 20px 0px;
     text-align: center;
     font-size: 1em;
     color: var(--FONT-COLOR);
@@ -106,7 +109,7 @@ main {
 
 main img {
     max-width: 100%;
-
+    margin-left: 7%;
 }
 
 .streaming {
@@ -117,6 +120,7 @@ main img {
     width: 60%;
     display: block;
     margin: auto;
+    padding-top: 40%;
 }
 
 .internet {
@@ -136,8 +140,9 @@ main img {
     border-radius: 20px;
     width: 15%;
     margin-bottom: 100px;
-    display: block;
+    display: inline-block;
     margin: auto;
+    margin-top: 50%;
     padding: 3px 3px 3px 3px;
 }
 
